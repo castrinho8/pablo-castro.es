@@ -1,0 +1,161 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+ font-family: 'source sans pro';
+}
+
+h1, h2, h3, h4 {
+ font-weight: bold;
+}
+
+p {
+ font-size: 18px;
+ line-height: 2rem;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+}
+
+h1 > a:hover,
+h2 > a:hover,
+h3 > a:hover,
+h4 > a:hover,
+p > a:hover {
+  color: #80cbc4;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.primary-section {
+ background-color: rgba(255,255,255,.9);
+ color: #424242;
+}
+
+.secondary-section {
+ background-color: #26a69a;
+ color: rgba(255,255,255,.9);
+}
+
+.undertitle {
+  width: 40px;
+}
+
+.circle {
+	height: 95px;
+	width: 95px;
+	text-align: center;
+	line-height: 98px;
+	color: #26a69a;
+	/* border: 3px solid #000; */
+	border-radius: 100px;
+	background-color: rgba(255,255,255,.9);
+	margin: 0 2px 4px;
+	font-size: 35px;
+}
+
+.grid img {
+    opacity: .7;
+    max-width: 300px;
+}
+.grid img:hover {
+    opacity: 1;
+}
+
+#burger-button {
+  position: fixed;
+  margin-left: 3%;
+  margin-top: 3%;
+  z-index: 1;
+}
+
+#burger-button i {
+  font-size: 40px;
+  color: #80cbc4;
+}
+
+.side-nav .userView .background {
+  background: url('../img/balloons.jpeg');
+  background-position: 0% 50%;
+  background-size: 170%;
+}
+
+.side-nav .userView .circle {
+  height: 80px;
+  width: 80px;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+#index-banner {
+  padding-top: 150px;
+  height: 700px;
+  background-color: #26a69a;
+}
+
+.social-icon {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.link {
+  color: inherit;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
